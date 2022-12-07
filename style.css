@@ -1,0 +1,98 @@
+.bgimg{
+  background-image: url('wallpaper.jpeg');
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  width: 100%;
+  height: 660px;
+}
+
+.hearderset{
+  padding-top: 260px;
+  box-sizing: border-box; 
+}  
+.hearderset h2{
+  font-size: 32px;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+.hearderset h1{
+  font-size: 42px;
+  font-weight: bold;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+/*.........ourservices.........*/
+
+.ourservices{
+  padding: 100px 0px 60px;
+  height: 1000px;
+  
+}
+.ourservices h1{
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+.rowsetting{
+  margin: 80px 0px  !important;
+}
+.imgsetting{
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+.fa-shopping-cart {
+  margin-top: 25px;
+}
+.fa-desktop{
+  margin-top: 30px;
+}
+.fa-lock {
+  margin-top: 25px;
+}
+.rowsetting p{
+  padding: 10px;
+  
+}
+.rowsetting h2{
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+/*-------footer--------*/
+
+.footer{
+  height: 50px;
+}
+.footer h6{
+  line-height: 50px;
+}
+.centerdiv{
+  height: 12vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.centerdiv a{
+  height: 50px;
+  width: 50px;
+}
+.centerdiv a i{
+  transition: all 0.3s linear;
+}
+.centerdiv a:hover i{
+  transform: scale(1.4);
+}
+.fa-facebook{
+  color: #6699ff;
+}
+.fa-instagram{
+  color: #e84393;
+}
+.fa-twitter{
+  color: #0097e6;
+}
+.fa-whatsapp{
+  color:  #39e600
+}
+
